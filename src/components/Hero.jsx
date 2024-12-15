@@ -1,5 +1,6 @@
-import React from 'react'
-
+import React from 'react';
+import { HERO_CONTENT } from "../constants";
+import profilePic from "../assets/kevinRushProfile.png";
 export const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -19,7 +20,7 @@ export const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img src={profilepic} alt="Kevin Rush"/>
+                    <img src={profilePic} alt="Kevin Rush"/>
                 </div>
             </div>
         </div>

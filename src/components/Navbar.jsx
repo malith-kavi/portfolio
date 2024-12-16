@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/malithLogo.png";
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { FaTwitterSquare } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 
 export const Navbar = () => {
@@ -11,10 +10,39 @@ export const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo"/>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaTwitterSquare/>
-        <FaInstagram/>
+
+        <a 
+          href='https://www.linkedin.com/in/malithkavinda'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='LinkedIn'
+          className='hover:text-gray-500'
+          >
+            <FaLinkedin/>
+        </a>
+
+        <a 
+          href='https://github.com/malith-kavi'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='GitHub'
+          className='hover:text-gray-500'
+          >
+            <FaGithub/>
+        </a>
+
+        <a 
+          href=''
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='Instagram'
+          className='hover:text-gray-500'
+          >
+            <FaInstagram/>
+        </a>
+
+        
+        
     </div>
   </nav>;
 };

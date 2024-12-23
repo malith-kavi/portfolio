@@ -6,8 +6,11 @@ import election from "../assets/projects/election.png";
 import snake from "../assets/projects/snake.png";
 import bmi from "../assets/projects/bmi.png";
 import ticket from "../assets/projects/ticket.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import bus from "../assets/projects/bus.png";
+import canteen from "../assets/projects/canteen.png";
+import blog from "../assets/projects/blog.png";
+import { link } from "framer-motion/client";
+
 
 export const HERO_CONTENT = `I would like to learn new technologies and programming languages to expand my skill set. Currently, I am diving into emerging technologies like Python, JavaScript, and various mobile development frameworks to stay updated with industry trends and enhance my project development capabilities.`;
 
@@ -51,6 +54,7 @@ export const PROJECTS = [
     description:
       "The Weather app is a user-friendly application that provides real-time weather information for any location. It allows users to search for cities and view current weather conditions, including temperature, humidity, and wind speed. The app is designed to offer accurate and up-to-date weather data, helping users plan their day effectively",
     technologies: ["Swift", "Weather API"],
+    link: "https://github.com/malith-kavi/Weather"
   },
   {
     title: "To Do Mobile Application",
@@ -58,6 +62,7 @@ export const PROJECTS = [
     description:
       "A simple and efficient task management app to help users organize, track, and complete daily tasks. Key features include task creation, editing and real-time progress tracking with secure user authentication.",
     technologies: ["Java"],
+    link:"https://github.com/malith-kavi/Task-Track-Mobile-Application"
   },
   {
     title: "Food Suggestion Mobile Application",
@@ -65,6 +70,7 @@ export const PROJECTS = [
     description:
       "A personalized mobile app built using Flutter with Firebase as the backend. The app features user authentication for login and registration. During registration, users provide details such as weight, height, birthday, gender, symptoms, and allergies. Based on this data, the system suggests customized food options for their meals.",
     technologies: ["Flutter", "Firebase"],
+    link: "https://github.com/malith-kavi/foodie-goodie"
   },
   {
     title: "Portfolio Website",
@@ -72,6 +78,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React"],
+    link: "https://github.com/malith-kavi/portfolio"
   },
   {
     title: "Election Vote Calculation System",
@@ -79,6 +86,7 @@ export const PROJECTS = [
     description:
       "A Python-based application built using Object-Oriented Programming (OOP) to simulate an election voting system. The system allows citizens to vote for candidates based on preferences, adhering to eligibility criteria such as age and state/province restrictions. It ensures that votes are valid and counts the number of votes obtained by each candidate. Results are displayed visually using charts for better clarity and analysis.",
     technologies: ["Python"],
+    link: "https://github.com/malith-kavi/voting_system"
   },
   {
     title: "Snake Game",
@@ -86,6 +94,7 @@ export const PROJECTS = [
     description:
       "A classic snake game developed using HTML, CSS, and JavaScript. The game features a responsive design, smooth animations, and increasing difficulty as the snake grows. Players control the snake to collect food while avoiding collisions with the walls or itself.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://github.com/malith-kavi/Snake-Game"
   },
   {
     title: "BMI Calculator",
@@ -93,6 +102,7 @@ export const PROJECTS = [
     description:
       "A simple and intuitive mobile application built using Flutter to calculate Body Mass Index (BMI). Users input their weight and height to instantly receive their BMI score along with a health category (e.g., underweight, normal, overweight).",
     technologies: ["Flutter"],
+    link: "https://github.com/malith-kavi/bmicalculator"
   },
   {
     title: "Ticket Booking Mobile Application",
@@ -100,27 +110,31 @@ export const PROJECTS = [
     description:
       "A mobile application designed to simplify the process of booking tickets for various events. Users can browse events, view details, and reserve tickets seamlessly.",
     technologies: ["Flutter"],
+    link: "https://github.com/malith-kavi/Ticket-booking-mobile-application"
   },
   {
     title: "Bus Booking Mobile Application",
-    image: project3,
+    image: bus,
     description:
       "A user-friendly mobile app built using Flutter with Firebase as the backend. The app features user authentication for login and registration. Users can book bus seats online, make payments, and view booking details. Drivers can also register through the app and add their buses to the system for booking.",
     technologies: ["Flutter","Firebase"],
+    link: "https://github.com/malith-kavi/triptix"
   },
   {
     title: "Smart Canteen Management System",
-    image: project3,
+    image: canteen,
     description:
       "A mobile application developed using Flutter and Firebase to streamline canteen operations. Students can explore the menu, place tokens for desired foods, and collect them later, paying at the time of collection. Canteen staff can log in to manage the menu, and admins can monitor food feedback, messages, and ratings.",
     technologies: ["Flutter","Firebase"],
+    link: "https://github.com/malith-kavi/canto"
   },
   {
     title: "Blogging Platform",
-    image: project4,
+    image: blog,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting",
     technologies: ["React","Node", "Express", "MongoDB"],
+    link: "https://github.com/malith-kavi/blog-app"
   },
 ];
 
